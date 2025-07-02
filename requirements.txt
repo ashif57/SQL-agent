@@ -4,3 +4,4 @@ sqlglot
 pandas
 python-dotenv
 tiktoken
+openai
