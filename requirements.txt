@@ -1,6 +1,0 @@
-streamlit
-sqlparse
-sqlglot
-pandas
-python-dotenv
-tiktoken
