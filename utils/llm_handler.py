@@ -1,8 +1,8 @@
 import os
 from openai import OpenAI
-from dotenv import load_dotenv
 
-load_dotenv()
+import streamlit as st
+
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
