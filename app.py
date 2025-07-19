@@ -19,7 +19,7 @@ with tab1:
             st.warning("Please enter a valid input.")
         else:
             with st.spinner("Generating SQL..."):
-                with open("prompts/nl_to_sql.txt", "r", encoding="utf-8") as f:
+                with open("prompts/nl_to_sql_basic.txt", "r", encoding="utf-8") as f:
                     prompt = f"-- Generate SQL compatible with {dialect}\n\n" + f.read()
                 final_prompt = prompt.replace("{user_input}", user_input)
                 result = call_llm(final_prompt)

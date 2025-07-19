@@ -19,10 +19,34 @@ Built with OpenRouter-compatible LLMs like DeepSeek, the app lets you write or u
 
 ---
 
-## 📸 Screenshots
+## 🖼️ Screenshots
+
+### 🔹 Natural Language → SQL
+> _"Show the name and email of users who live in Chennai."_
+
+![NL to SQL Screenshot](screenshots/NL_TO_SQL.png)
+
+---
+
+### 🔹 SQL → ORM
+> ```sql
+> SELECT * FROM users WHERE is_active = 1;
+> ```
+
+![SQL to ORM Screenshot](screenshots/SQL_TO_ORM.png)
+
+---
+
+### 🔹 Talk to DB
+> _"List the product names and order dates for all orders placed by Alice."_
+
+![Talk to DB Screenshot](screenshots/TALK_TO_DB!.png)
+![Talk to DB Screenshot](screenshots/TALK_TO_DB2.png)
+![Talk to DB Screenshot](screenshots/TALK_TO_DB3.png)
 
 
 ---
+
 
 ## 🗂️ File Structure
 
